@@ -19,7 +19,7 @@ $negro = imagecolorallocate($imagen,0,0,0);
 imagefill($imagen, 0, 0, $blanco);
 imagerectangle($imagen, 0, 0, imageSX($imagen) - 1, imageSY($imagen) - 1, $negro);
 
-function cifra1111($num)
+function cifra3333($num)
 {
     return str_pad(decbin($num + 5), 4, '0', STR_PAD_LEFT);
 }
